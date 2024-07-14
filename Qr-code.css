@@ -1,0 +1,27 @@
+@font-face { src: url(Outfit-Bold.ttf);
+       font-family: outfit-bold;}
+@font-face { src: url(Outfit-Light.ttf);
+              font-family: outfit-light;}
+body { background-color: hsl(212, 45%, 89%);
+       
+       font-size: 13px;
+}
+.box { width: 200px;
+       height: 350px;
+       background-color: white;
+       padding: 10px;
+       border-radius: 10px;
+       margin: auto;
+       position: relative;
+       top: 100px;
+       text-align: center;}
+img { width: 300px;
+       max-width: 100%;
+       border-radius: 10px;
+       }
+h3 { font-family: outfit-bold;
+       color: rgb(44, 41, 41);}
+p  { font-family: outfit-light;
+     color: rgb(95, 93, 93);}
+.attribution { position: relative;
+               top: 130px;}
